@@ -1,13 +1,20 @@
 <style>
-	h1, figure, p {
+	h1, h2, figure, p {
 		text-align: center;
 		margin: 0 auto;
+
 	}
 
 	h1 {
 		font-size: 2.8em;
 		text-transform: uppercase;
 		font-weight: 700;
+		margin: 0 0 0.5em 0;
+	}
+
+	h2 {
+		font-size: 1.8em;
+		font-weight: 500;
 		margin: 0 0 0.5em 0;
 	}
 
@@ -33,14 +40,15 @@
 </style>
 
 <svelte:head>
-	<title>Sapper project template</title>
+	<title>Couch to 4k Blog</title>
 </svelte:head>
 
-<h1>Great success!</h1>
+<h1>Couch to 4k</h1>
+<h2>My Quest to Climb NH's 48 Four-Thousand Footers with my Dog</h2>
 
 <figure>
-	<img alt='Borat' src='great-success.png'>
-	<figcaption>HIGH FIVE!</figcaption>
+	<span><img alt='My dog on the couch' src='homepage/couch-dog.jpg'/>
+	&nbsp;&nbsp;&nbsp;
+	<img alt='My dog on a mountain' src='homepage/summit-laying-down.jpg'/></span>
 </figure>
 
-<p><strong>Try editing this file (src/routes/index.svelte) to test live reloading.</strong></p>

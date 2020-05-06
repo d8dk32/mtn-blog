@@ -11,6 +11,14 @@ const fs = require('fs');
 const frontMatter = require('front-matter');
 const marked = require('marked');
 
+// Override renderer used by marked
+const renderer = {
+  image(href, title, text) {
+    return ('<img src="' + href + '" alt="' + text + '" width="600px" />');
+  }
+};
+marked.use({ renderer });
+
 const posts = fs.readdirSync('./src/posts').map(postFilename => {
   const postContent = fs.readFileSync(`./src/posts/${postFilename}`, {
     encoding: 'utf8'

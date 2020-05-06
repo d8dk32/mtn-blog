@@ -14,6 +14,7 @@
 	ul {
 		margin: 0 0 1em 0;
 		line-height: 1.5;
+		color: black
 	}
 </style>
 
@@ -21,7 +22,7 @@
 	<title>Blog</title>
 </svelte:head>
 
-<h1>Recent posts</h1>
+<h1>Summits</h1>
 
 <ul>
 	{#each posts as post}
