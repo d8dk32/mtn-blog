@@ -1,3 +1,16 @@
+<script>
+	import SummitChecklist from '../components/SummitChecklist.svelte';
+	const summitLists = {
+    list1: [
+        {name: "Mt. Washington", done:""},
+        {name: "Blue Job", done: "X"}
+    ],
+    list2: [
+        {name: "Mt. Washington", done:""},
+        {name: "Blue Job", done: "X"}
+    ]
+}
+</script>
 <style>
 	h1, h2, figure, p {
 		text-align: center;
@@ -32,6 +45,11 @@
 		margin: 1em auto;
 	}
 
+	div {
+   		display: flex;
+    	justify-content: center
+    }
+
 	@media (min-width: 480px) {
 		h1 {
 			font-size: 4em;
@@ -51,4 +69,9 @@
 	&nbsp;&nbsp;&nbsp;
 	<img alt='My dog on a mountain' src='homepage/summit-laying-down.jpg'/></span>
 </figure>
+
+<div>
+	<SummitChecklist summits={summitLists.list1}/>
+	<SummitChecklist summits={summitLists.list2}/>
+</div>
 
