@@ -1,6 +1,7 @@
 ---
 title: 'Warmup #1: Blue Job - 5/3/20'
 slug: 'Warmup-1-Blue-Job'
+order: 1
 ---
 
 ## 1357 feet - approx. 3.0 mi

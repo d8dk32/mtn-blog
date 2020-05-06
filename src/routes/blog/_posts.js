@@ -27,6 +27,7 @@ const posts = fs.readdirSync('./src/posts').map(postFilename => {
   return {
     title: postFrontMatter.attributes.title,
     slug: postFrontMatter.attributes.slug,
+    order: postFrontMatter.attributes.order,
     html: marked(postFrontMatter.body)
   }
 });
@@ -34,5 +35,7 @@ const posts = fs.readdirSync('./src/posts').map(postFilename => {
 posts.forEach(post => {
 	post.html = post.html.replace(/^\t{3}/gm, '');
 });
+
+posts.sort(function(a, b){return b.order - a.order})
 
 export default posts;
