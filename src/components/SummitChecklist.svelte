@@ -14,7 +14,8 @@
     text-align: left;
     }
     table {
-    display: inline-block
+    display: inline-block;
+    margin: 3px
     }
 </style>
 
@@ -25,8 +26,8 @@
    </tr>
    {#each summits as summit}
    <tr>
-    <td>{summit.name}</td>
-    <td>{summit.done}</td>
+    <td> {@html summit.name} </td>
+    <td> {summit.done} </td>
    </tr>
    {/each}
  </table>
