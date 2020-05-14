@@ -96,7 +96,9 @@
 
 	div {
    		display: flex;
-    	justify-content: center
+		flex-direction: row;
+		flex-wrap: wrap;
+    	justify-content: center;
     }
 
 	@media (min-width: 480px) {
@@ -111,7 +113,7 @@
 </svelte:head>
 
 <h1>Couch to 4k</h1>
-<h2>My Quest to Climb NH's 48 Four-Thousand Footers with my Dog</h2>
+<h2>Our Quest to Climb NH's 48 Four-Thousand Footers with Our Dog</h2>
 
 <figure>
 	<span><img alt='My dog on the couch' src='homepage/couch-dog.jpg'/>

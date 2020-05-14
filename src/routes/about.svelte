@@ -33,5 +33,5 @@ will likely be some hikes the pup will sit out, either due to length or difficul
 <p>This cutie is named Lana. She is a Goldendoodle, and at the start of this journey she is about 2.5 years old and still full of puppy energy.
 She loves being outside and is very well behaved on the trails. She is, as I said, quite intrepid, and more than willing to scramble up 
 boulders and wade through streams. When she was a pup we lived in Plymouth, NH and I took her out in the woods and mountains from an early age.
-I'm always amazed by her ability to follow the trails and her trust in me to pick out the best path when she in unsure.</p>
+I'm always impressed by her ability to follow the trails and her trust in me to pick out the best path when she in unsure.</p>
 

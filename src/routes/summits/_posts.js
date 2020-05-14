@@ -14,7 +14,7 @@ const marked = require('marked');
 // Override renderer used by marked
 const renderer = {
   image(href, title, text) {
-    return ('<img src="' + href + '" alt="' + text + '" width="600px" />');
+    return ('<img src="' + href + '" alt="' + text + '" style="width: 70%" />');
   }
 };
 marked.use({ renderer });

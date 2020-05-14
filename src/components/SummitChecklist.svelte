@@ -19,15 +19,15 @@
     }
 </style>
 
- <table>
-   <tr>
-     <th>Mountain</th>
-     <th>Done</th> 
-   </tr>
-   {#each summits as summit}
-   <tr>
+<table>
+  <tr>
+    <th>Mountain</th>
+    <th>Done</th> 
+  </tr>
+  {#each summits as summit}
+  <tr>
     <td> {@html summit.name} </td>
     <td> {summit.done} </td>
-   </tr>
-   {/each}
- </table>
+  </tr>
+  {/each}
+</table>
