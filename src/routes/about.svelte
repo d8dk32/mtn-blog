@@ -18,7 +18,7 @@
 
 <p>I've always enjoyed hiking and the outdoors, though I wouldn't consider myself a serious hiker. The idea of climbing all of New Hampshire's
 four-thousand footers seemed like a neat goal, but I'm not really an ambitious enough mountaineer to give it a real try. My dog loves hiking as well and
-is very intrepid. My wife, who may occasionally appear in this blog, is decidedly not an outdoorswoman, and considerably less intrepid than 
+is very intrepid. My wife, Mary, who may occasionally appear in this blog, is decidedly not an outdoorswoman, and considerably less intrepid than 
 the dog. But she is very ambitious, and when presented with the challenge was suprisingly very into it. So we decided to give it a go. 
 We'll be doing some warm up hikes, and then we'll dive right in. It will be a learning process for all of us, and my biggest concern is
 doing it safely. The White Mountains can be dangerous, and I care immensely about the well-being of both my dog and my wife. As such there

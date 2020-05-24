@@ -6,6 +6,8 @@ order: 1
 
 ## 1357 feet - approx. 3.0 mi
 
+-----------------------------------
+
 Blue Job is a small mountain in Farmington, NH, about 40 minutes away from our home. My wife and I have each climbed it a few times before, but since it's pretty easy we figured it would be a good starting point. It was the first hike for the dog and I since last fall, and it had been even longer for my wife. We got there around 8:30am, and as expected there were already a few cars in the parking lot. There was a very slight drizzle but the forecast called for sun so we pressed on. 
 
 ![Muddy Buddy](blue-job/muddy-trail.jpg)

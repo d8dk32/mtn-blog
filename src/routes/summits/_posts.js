@@ -15,6 +15,9 @@ const marked = require('marked');
 const renderer = {
   image(href, title, text) {
     return ('<img src="' + href + '" alt="' + text + '" style="width: 70%" />');
+  },
+  hr() {
+    return ('<hr style="border: 1px solid black">');
   }
 };
 marked.use({ renderer });
