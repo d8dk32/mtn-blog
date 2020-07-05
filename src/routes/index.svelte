@@ -60,7 +60,7 @@
 		{name: "Mt. Whiteface", done: ""},
 		{name: "Mt. Waumbek", done: ""},
 		{name: "Mt. Isolation", done: ""},
-		{name: "Mt. Tecumseh*", done: ""}
+		{name: "<a href='/summits/Mt-Tecumseh'>Mt. Tecumseh</a>", done: "&#10004;"}
 	]
 }
 </script>

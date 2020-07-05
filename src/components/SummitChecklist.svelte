@@ -27,7 +27,7 @@
   {#each summits as summit}
   <tr>
     <td> {@html summit.name} </td>
-    <td> {summit.done} </td>
+    <td> {@html summit.done} </td>
   </tr>
   {/each}
 </table>
